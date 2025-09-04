@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black; */
+    /* color:white; */
+  
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: #3d3d3d;
+    color:white;
+    /* border-bottom: 2px solid black;; */
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding: top right bottom left */
+    padding:0 40px 0 40px;
+
+    
+}
+
+#logo{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  
+    display: flex;
+    gap:30px;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+main{
+
+    display: flex;
+    
+    width: 100vw;
+    height: calc(100vh - 100px);
+    /* background-color: yellow; */
+}
+
+#left{
+    /* background-color: red; */
+    height: calc(100vh - 100px);
+    width: 50vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#right{
+    background-color: pink;
+    height: calc(100vh - 100px);
+    width: 50vw;
+}
+
+#lefth1{
+    font-size: 70px;
+    letter-spacing: 5px;
+ 
+}
+
+#leftp{
+    font-size: 25px;
+    color:crimson;
+    font-style: italic;
+    word-spacing: 5px;
+    /* margin: top right bottom left */
+    margin: 20px 0 20px 0;
+}
+
+#cvbtn{
+    /* border:size style color */
+    border:5px solid crimson;
+
+    /* padding: top right bottom left; */
+    padding: 20px 50px 20px 50px;
+
+    background-color: rgb(159, 229, 255);
+
+    border-radius: 50px;
+    border:none;
+}
+
+#cvbtn:hover{
+    background-color: pink;
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+}
+
+#right{
+    background: url('https://img.freepik.com/premium-vector/illustration-programmer-computer-vector-technology-concept-web-digital-design-programming_1013341-205245.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#about{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+
+#education{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(252, 15, 157);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+#experience{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(71, 246, 51);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+#contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(67, 102, 239);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
